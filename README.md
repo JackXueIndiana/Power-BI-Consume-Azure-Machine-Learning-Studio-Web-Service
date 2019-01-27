@@ -22,6 +22,7 @@ To call this web service from other application, Power BI desktop in our case, w
 We installed Microsoft R Open 3.5.1 on a PC, and installed two packages needed by the R script with the command in R console:
 install.packages(“RCurl”)
 install.packages(“rjson”)
+install.packages(“stats")
 
 After start he Power BI Desktop, from “Get Data” we load a local file Lemonade.csv. Then we create a query with R script (see the lemondade.R in the repo). After first run (by clicking the OK button in R scripting window in Power BI Query, we can see the “output” with a new column named PredictSales.
 

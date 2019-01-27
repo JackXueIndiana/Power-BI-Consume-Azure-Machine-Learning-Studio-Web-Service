@@ -28,4 +28,4 @@ After start he Power BI Desktop, from “Get Data” we load a local file Lemona
 
 After saving everything, we update the file Lemonade.csv by adding a few more rows, and then click “Refresh” button in the report, we see the new rows appeared with PredictSales populated.
 
-In the R script, we add a section for (input) values preparation and the the end we add a section for JSON to DataFrame conversion so we can reture the results to Power BI Report.
+In the R script, the core is the sample code copied form the web service, we just add a section for (input) values preparation and at the end a section for JSON to DataFrame conversion so we can reture the results to Power BI Report.
